@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #fffacd; /* Light yellow color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for modern look */
+}
+
+nav .logo {
+    cursor: pointer;
+    display: inline-block;
+    width: 60px; /* Increased size */
+    height: 60px; /* Increased size */
+    background-image: url('../images/PowerIcon.png'); /* Path to the PowerIcon.png */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: black; /* Updated color for better contrast */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: #f0e68c; /* Darker shade for hover effect */
+}
+
+nav a.page-indicator {
+    color: #ff6600; /* Highlight current page */
+    font-weight: bold;
+}
+
+footer {
+    background-color: #fffacd; /* Light yellow color */
+    color: black; /* Updated color for better contrast */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for modern look */
+}
+
+.placeholder-content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
