@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Televisions - Appliance Energy Consumption</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Inline styles for the table box */
+        .data-box {
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .data-box table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .data-box th, .data-box td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .data-box th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .data-box tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .data-box tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -20,10 +50,37 @@
         <p>This page provides information on the energy consumption of televisions in the Australian market.</p>
         <h2>Energy Efficiency</h2>
         <p>Understanding the energy efficiency of televisions can help you make informed decisions when purchasing a new TV. Here, we provide insights into the energy ratings and consumption of various television models.</p>
-    </div>
-    <footer>
-        &copy; Akarawin Komolsai SID:103807657 Acknowledgement: GenAI for assistance in generating code and content.
-    </footer>
-    <script src="js/script.js"></script>
-</body>
-</html>
+        
+        <h2>Example Data</h2>
+        <div class="data-box">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>Screen Size (inches)</th>
+                        <th>Energy Rating</th>
+                        <th>Annual Energy Consumption (kWh)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Brand A - UltraView 50</td>
+                        <td>50</td>
+                        <td>4 Stars</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>Brand B - SmartVision 65</td>
+                        <td>65</td>
+                        <td>5 Stars</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Brand C - EcoScreen 40</td>
+                        <td>40</td>
+                        <td>3 Stars</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
